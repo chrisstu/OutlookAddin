@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <contextMenus>
+    <contextMenu idMso="ContextMenuMailItem">
+      <!--<menu id="MySubMenu" label="Move Mail" getVisible="GetVisible" >
+        <button id="iDealing"
+                label="iDealing"
+                onAction="OnMyButtonClick"/>
+      </menu>-->
+      <dynamicMenu id="subMenu" label="Sub Menu" getContent="GetMenuContent" />
+    </contextMenu>
+    <!--<contextMenu idMso="ContextMenuMultipleItems">
+      <menu id="MySubMenu" label="Move Menu"  >
+        <button id="MyContextMenuMultipleItems1"
+                label="Move Mail 1"
+                onAction="OnMyButtonClick"/>
+        <button id="MyContextMenuMultipleItems2"
+                label="Move Mail 2"
+                onAction="OnMyButtonClick"/>
+      </menu>
+    </contextMenu>-->
+  </contextMenus>
+</customUI>
+
